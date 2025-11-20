@@ -2,7 +2,7 @@
 In this workshop we will explore together the essential methodology for visualizing the results of neural network training runs using PyTorch’s integration with TensorBoard. While simple statistics can be printed during training, TensorBoard offers a superior tool for creating interactive visualizations. 
 	
 We will be using the [Fashion-MNIST dataset](https://github.com/zalandoresearch/fashion-mnist/tree/master/data), detail the setup, including defining a SummaryWriter, and demonstrate five key areas of visualization:
-1. Inspecting Model Architecture: We will show how to visualize complex model structures via the Graphs tab using $writer.add_graph()$.
+1. Inspecting Model Architecture: We will show how to visualize complex model structures via the Graphs tab using $writer.addgraph()$.
 2. Visualizing High-Dimensional Data: We will demonstrate the utility of the Projector tab by using the add_embedding method to project high-dimensional image data into lower dimensional space for interactive exploration.
 3. Tracking Training Progression: We will illustrate effective methods for logging the running loss during training using add_scalar.
 4. Monitoring Intermediate Predictions: We will demonstrate how to log Matplotlib Figures showing the model's predictions versus actual labels on batches throughout the training process.
