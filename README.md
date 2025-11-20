@@ -9,5 +9,6 @@ We will be using the [Fashion-MNIST dataset](https://github.com/zalandoresearch/
 5. Assessing Trained Models: Finally, we will cover methods for post-training assessment by plotting precision-recall curves for each class, providing detailed insights into per-class accuracy and performance.
 	
 This session will provide audience with the practical steps needed to move beyond console output, ensuring a clearer and more insightful understanding of model performance and training progression.
+This session is inspired from the [PyTorch Intermediate Learning Session](https://docs.pytorch.org/tutorials/intermediate/tensorboard_tutorial.html), from the official PyTorch website, and I have just put all the pieces together in a Jupyter Notebook for easy use and exploration. 
 	
 
