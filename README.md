@@ -1,7 +1,7 @@
 # Google Michigan Dev Fest-2025
 In this workshop we will explore together the essential methodology for visualizing the results of Neural Network training runs using PyTorch’s integration with TensorBoard. While simple statistics can be printed during training, TensorBoard offers a superior tool for creating interactive visualizations. 
 	
-We will be using the [Fashion-MNIST dataset](https://github.com/zalandoresearch/fashion-mnist/tree/master/data), consisting of a training set of 60,000 examples and a test set of 10,000 examples.Each example is a 28×28 grayscale image, associated with a label from 10 classes. We will detail the setup, including defining a SummaryWriter, and demonstrate five key areas of visualization:
+We will be using the [Fashion-MNIST dataset](https://github.com/zalandoresearch/fashion-mnist/tree/master/data), consisting of a training set of 60,000 examples and a test set of 10,000 examples.Each example is a 28×28 grayscale image, associated with a label from 10 classes. We will detail the setup, including defining a *SummaryWriter*, and demonstrate five key areas of visualization:
 1. **Inspecting Model Architecture**: We will show how to visualize complex model structures via the Graphs tab using *writer.add_graph()*.
 2. **Visualizing High-Dimensional Data**: We will demonstrate the utility of the Projector tab by using the *add_embedding* method to project high-dimensional image data into lower dimensional space for interactive exploration.
 3. **Tracking Training Progression**: We will illustrate effective methods for logging the running loss during training using *add_scalar*.
