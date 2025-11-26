@@ -13,5 +13,5 @@ This session is inspired from the [PyTorch Intermediate Learning Session](https:
 
 # References & Citations
 1. Data Source: [Fashion-MNIST dataset](https://github.com/zalandoresearch/fashion-mnist/tree/master/data)
-2. PyTorch Intermediate Learning Session: [PyTorch Intermediate Learning Session](https://docs.pytorch.org/tutorials/intermediate/tensorboard_tutorial.html)
+2. PyTorch Official Learning Resource: [PyTorch Intermediate Learning Session](https://docs.pytorch.org/tutorials/intermediate/tensorboard_tutorial.html)
 3. CNN Architecture Diagram: [CNN Architecture Diagram Reference](https://www.linkedin.com/pulse/what-convolutional-neural-network-cnn-deep-learning-nafiz-shahriar/)
